@@ -1,0 +1,384 @@
+#headtop {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url(../image/banertop.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  position: relative;
+}
+#headtop > header {
+  width: 100%;
+  height: 100px;
+  padding: 30px;
+  display: flex;
+}
+#headtop > header > img {
+  position: absolute;
+  width: 150%;
+  height: 150%;
+}
+#headtop > header > div:nth-of-type(1) > h3 {
+  color: white;
+  padding: 12px 10px;
+}
+#headtop > header > nav {
+  width: 50%;
+  height: auto;
+  padding-top: 15px;
+}
+#headtop > header > nav > ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+#headtop > header > nav > ul > li > a {
+  color: white;
+}
+#headtop > header > nav > ul > li > a:hover {
+  color: red;
+}
+#headtop > header > div:nth-of-type(2) {
+  padding: 15px 30px;
+}
+#headtop > header > div:nth-of-type(2) > a {
+  color: white;
+}
+#headtop #headbottom {
+  width: 50%;
+  height: 500px;
+  padding: 50px 30px;
+  position: absolute;
+  color: white;
+}
+#headtop #headbottom > h1 {
+  font-size: 40px;
+  transition: 1s;
+}
+#headtop #headbottom > h1:hover {
+  color: red;
+}
+#headtop #headbottom > p {
+  padding-top: 30px;
+  line-height: 40px;
+}
+#headtop #headbottom > div {
+  margin: 50px 50px;
+  width: 140px;
+  height: 50px;
+  background-color: red;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.7s;
+}
+#headtop #headbottom > div:hover {
+  transform: scale(1.2);
+  color: black;
+}
+
+#body {
+  width: 100%;
+  min-height: 750vh;
+  background-image: url(../image/body_bg.png);
+  position: relative;
+}
+#body #clientbar {
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+}
+#body #clientbar > figure > img {
+  width: 70%;
+  height: 70px;
+  transition: 1s;
+}
+#body #clientbar > figure > img:hover {
+  width: 80%;
+  height: 80px;
+}
+#body #history {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+#body #history > div {
+  width: 50%;
+  height: 100vh;
+  margin-top: 60px;
+}
+#body #history > div:nth-of-type(1) > figure > img {
+  width: 100%;
+  height: 100%;
+}
+#body #history > div:nth-of-type(2) > h2 {
+  font-size: 40px;
+  color: white;
+  padding: 50px 30px;
+  transition: 1s;
+}
+#body #history > div:nth-of-type(2) > h2:hover {
+  color: red;
+}
+#body #history > div:nth-of-type(2) p {
+  line-height: 30px;
+  color: white;
+  padding: 0 30px;
+}
+#body #history > div:nth-of-type(2) div {
+  margin: 100px 250px;
+  background-color: red;
+  text-align: center;
+  width: 130px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.7s;
+}
+#body #history > div:nth-of-type(2) div:hover {
+  transform: scale(1.2);
+  color: black;
+}
+#body #stream {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  margin-top: 100px;
+  justify-content: space-around;
+}
+#body #stream > div {
+  width: 30%;
+  height: 500px;
+}
+#body #stream > div > figure > img {
+  width: 100%;
+  height: 120%;
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+}
+#body #stream > div > img {
+  width: 100%;
+  height: 50%;
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+}
+#body #stream > div > h2 {
+  font-size: 30px;
+  color: white;
+  margin-top: -80px;
+  text-align: center;
+  z-index: 1;
+  transition: 1s;
+}
+#body #stream > div > h2:hover {
+  font-size: 40px;
+  letter-spacing: 2px;
+}
+#body #stream > div > div {
+  width: 100px;
+  height: 50px;
+  background-color: red;
+  margin: 100px 120px;
+}
+#body #stream > div > div > a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 15px;
+  color: white;
+  cursor: pointer;
+  transition: 0.7s;
+}
+#body #stream > div > div > a:hover {
+  transform: scale(1.2);
+  color: black;
+}
+#body #fight > div {
+  width: 100%;
+  height: 200px;
+}
+#body #fight > div > h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 40px;
+  padding-top: 60px;
+  transition: 1s;
+}
+#body #fight > div > h3:hover {
+  font-size: 50px;
+}
+#body #game > figure {
+  display: flex;
+  overflow: hidden;
+}
+#body #game > figure > img {
+  width: 100%;
+  height: 80%;
+  transition: 1s;
+  opacity: 0.6;
+}
+#body #game > figure > img:hover {
+  scale: 1.2;
+  opacity: 1;
+}
+#body #game > figure > div:nth-of-type(1) {
+  margin: 200px 500px;
+  position: absolute;
+  color: white;
+  text-align: center;
+  line-height: 50px;
+}
+#body #game > figure > div:nth-of-type(1) > h5 {
+  color: orange;
+  transition: 1s;
+}
+#body #game > figure > div:nth-of-type(1) > h5:hover {
+  scale: 2;
+  color: red;
+}
+#body #game > figure > div:nth-of-type(2) {
+  position: absolute;
+  margin: 400px 470px;
+}
+#body #gallery {
+  width: 100%;
+  height: 220vh;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  gap: 30px;
+}
+#body #gallery > figure {
+  width: 100%;
+  height: 100%;
+  color: white;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+#body #gallery > figure img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  transition: 0.4s;
+  opacity: 0.8;
+}
+#body #gallery > figure img:hover {
+  scale: 1.2;
+  opacity: 1;
+}
+#body #gallery > figure:nth-of-type(2) {
+  grid-area: 1/2/span 2/span 1;
+}
+#body #gallery > figure:nth-of-type(6) {
+  grid-area: 3/1/span 1/span 3;
+}
+#body #gallery > figure:nth-of-type(8) {
+  grid-area: 4/2/span 1/span 2;
+}
+#body #darkdragon {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+}
+#body #darkdragon > figure {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  overflow: hidden;
+}
+#body #darkdragon > figure > img {
+  width: 100%;
+  justify-content: center;
+  transition: 1s;
+  display: flex;
+}
+#body #darkdragon > figure > img:hover {
+  scale: 1.2;
+}
+#body #darkdragon > figure > h3 {
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  top: 200px;
+  left: 500px;
+}
+#body #darkdragon > figure > div {
+  width: 50px;
+  height: 50px;
+  top: 280px;
+  position: absolute;
+  color: white;
+}
+#body #darkdragon > figure > div:nth-of-type(1) {
+  right: 670px;
+}
+#body #darkdragon > figure > div:nth-of-type(2) {
+  right: 600px;
+}
+#body #footer {
+  width: 100%;
+  min-height: 50vh;
+  display: flex;
+  justify-content: space-evenly;
+}
+#body #footer > div {
+  width: 30%;
+  min-height: 50vh;
+  display: flex;
+  flex-wrap: wrap;
+}
+#body #footer > div:nth-of-type(1) {
+  display: flex;
+  justify-content: space-evenly;
+}
+#body #footer > div:nth-of-type(1) > img {
+  width: 40%;
+  height: 40%;
+  padding-top: 20px;
+}
+#body #footer > div:nth-of-type(1) > h3 {
+  color: white;
+}
+#body #footer > div:nth-of-type(2) {
+  display: flex;
+}
+#body #footer > div:nth-of-type(2) > h3 {
+  color: white;
+  padding-top: 60px;
+}
+#body #footer > div:nth-of-type(2) > ul {
+  padding-bottom: 40px;
+}
+#body #footer > div:nth-of-type(2) > ul li {
+  line-height: 40px;
+  color: white;
+}
+#body #footer > div:nth-of-type(3) {
+  display: flex;
+}
+#body #footer > div .fa {
+  font-size: 80px;
+  color: rgb(255, 255, 255);
+  display: flex;
+  padding-top: 100px;
+  padding-left: 30px;
+}
+#body #footer > div .fa:hover {
+  opacity: 0.7;
+}/*# sourceMappingURL=master.css.map */

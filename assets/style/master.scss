@@ -1,0 +1,452 @@
+#headtop {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(../image/banertop.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+
+    >header {
+        width: 100%;
+        height: 100px;
+        padding: 30px;
+        display: flex;
+
+        >img {
+            position: absolute;
+            width: 150%;
+            height: 150%;
+        }
+
+        >div:nth-of-type(1)>h3 {
+            color: white;
+            padding: 12px 10px;
+        }
+
+        >nav {
+            width: 50%;
+            height: auto;
+            padding-top: 15px;
+
+            >ul {
+                display: flex;
+                justify-content: space-evenly;
+
+                >li {
+                    >a {
+                        color: white;
+
+                        &:hover {
+                            color: red;
+                        }
+                    }
+
+                }
+
+            }
+        }
+
+        >div:nth-of-type(2) {
+            padding: 15px 30px;
+            >a {
+                color: white;
+            }
+
+        }
+    }
+
+    #headbottom {
+        width: 50%;
+        height: 500px;
+        padding: 50px 30px;
+        position: absolute;
+        color: white;
+
+        >h1 {
+            font-size: 40px;
+            transition: 1s;
+
+            &:hover {
+                color: red;
+            }
+        }
+        >p {
+            padding-top: 30px;
+            line-height: 40px;
+        }
+
+        >div {
+            margin: 50px 50px;
+            width: 140px;
+            height: 50px;
+            background-color: red;
+            font-size: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            transition: .7s;
+
+            &:hover {
+                transform: scale(1.2);
+                color: black;
+            }
+        }
+
+    }
+}
+// end head top
+
+#body {
+    width: 100%;
+    min-height: 750vh;
+    background-image: url(../image/body_bg.png);
+    position: relative;
+
+    #clientbar {
+        display: flex;
+        justify-content: space-evenly;
+        position: relative;
+
+        >figure>img {
+            width: 70%;
+            height: 70px;
+            transition: 1s;
+
+            &:hover {
+                width: 80%;
+                height: 80px;
+            }
+        }
+    }
+    // end clientbar
+
+    #history {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+
+        >div {
+            width: 50%;
+            height: 100vh;
+            margin-top: 60px;
+        }
+
+        >div:nth-of-type(1) {
+            >figure>img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+        >div:nth-of-type(2) {
+            >h2 {
+                font-size: 40px;
+                color: white;
+                padding: 50px 30px;
+                transition: 1s;
+
+                &:hover {
+                    color: red;
+                }
+            }
+            p {
+
+                line-height: 30px;
+                color: white;
+                padding: 0 30px;
+            }
+            div {
+                margin: 100px 250px;
+                background-color: red;
+                text-align: center;
+                width: 130px;
+                height: 40px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: white;
+                font-size: 15px;
+                cursor: pointer;
+                transition: .7s;
+
+                &:hover {
+                    transform: scale(1.2);
+                    color: black;
+
+
+                }
+            }
+        }
+    }
+    // end history
+
+    #stream {
+        width: 100%;
+        height: 500px;
+        display: flex;
+        margin-top: 100px;
+        justify-content: space-around;
+
+        >div {
+            width: 30%;
+            height: 500px;
+            >figure>img {
+                width: 100%;
+                height: 120%;
+                display: flex;
+                justify-content: center;
+                margin-top: 80px;
+            }
+
+            >img {
+                width: 100%;
+                height: 50%;
+                opacity: 1;
+                display: flex;
+                justify-content: center;
+            }
+            >h2 {
+                font-size: 30px;
+                color: white;
+                margin-top: -80px;
+                text-align: center;
+                z-index: 1;
+                transition: 1s;
+                &:hover {
+                    font-size: 40px;
+                    letter-spacing: 2px;
+                }
+            }
+            >div {
+                width: 100px;
+                height: 50px;
+                background-color: red;
+                margin: 100px 120px;
+
+                >a {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding-top: 15px;
+                    color: white;
+                    cursor: pointer;
+                    transition: .7s;
+
+                    &:hover {
+                        transform: scale(1.2);
+                        color: black;
+                    }
+                }
+            }
+        }
+    }
+    // end stream
+
+    #fight {
+        >div {
+            width: 100%;
+            height: 200px;
+            >h3 {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: white;
+                font-size: 40px;
+                padding-top: 60px;
+                transition: 1s;
+
+                &:hover {
+                    font-size: 50px;
+                }
+            }
+        }
+    }
+    // end fight
+
+    #game {
+        >figure {
+            display: flex;
+            overflow: hidden;
+
+            >img {
+                width: 100%;
+                height: 80%;
+                transition: 1s;
+                opacity: 0.6;
+
+                &:hover {
+                    scale: 1.2;
+                    opacity: 1;
+                }
+            }
+            >div:nth-of-type(1) {
+                margin: 200px 500px;
+                position: absolute;
+                color: white;
+                text-align: center;
+                line-height: 50px;
+
+                >h5{
+                    color: orange;
+                    transition: 1s;
+                    &:hover{
+                        scale: 2;
+                        color: red;
+                    }
+                }
+            }
+            >div:nth-of-type(2) {
+                position: absolute;
+                margin: 400px 470px;
+            }
+        }
+    }
+    // endgame
+
+    #gallery {
+        width: 100%;
+        height: 220vh;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        justify-content: center;
+        align-items: center;
+        padding: 50px;
+        gap: 30px;
+        >figure {
+            width: 100%;
+            height: 100%;
+            color: white;
+            font-size: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                transition: 0.4s;
+                opacity: 0.8;
+                &:hover {
+                    scale: 1.2;
+                    opacity: 1;
+                }
+            }
+            &:nth-of-type(2) {
+                grid-area: 1 / 2 / span 2 /span 1;
+            }
+
+            &:nth-of-type(6) {
+                grid-area: 3 / 1 / span 1 /span 3;
+            }
+
+            &:nth-of-type(8) {
+                grid-area: 4 / 2 / span 1 /span 2;
+            }
+        }
+    }
+    // end gallery
+
+    #darkdragon {
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+        >figure {
+            width: 100%;
+            height: 100vh;
+            position: relative;
+            display: flex;
+            overflow: hidden;
+            >img {
+                width: 100%;
+                justify-content: center;
+                transition: 1s;
+                display: flex;
+                &:hover {
+                    scale: 1.2;
+                }
+            }
+            >h3 {
+                color: white;
+                font-size: 30px;
+                position: absolute;
+                top: 200px;
+                left: 500px;
+            }
+            >div {
+                width: 50px;
+                height: 50px;
+                top: 280px;
+                position: absolute;
+                color: white;
+
+                &:nth-of-type(1) {
+                    right: 670px;
+
+                }
+
+                &:nth-of-type(2) {
+                    right: 600px;
+
+                }
+            }
+        }
+    }
+    // end darkdragon
+
+    #footer {
+        width: 100%;
+        min-height: 50vh;
+        display: flex;
+        justify-content: space-evenly;
+        >div {
+            width: 30%;
+            min-height: 50vh;
+            display: flex;
+            flex-wrap: wrap;
+
+            &:nth-of-type(1) {
+                display: flex;
+                justify-content: space-evenly;
+                >img {
+                    width: 40%;
+                    height: 40%;
+                    padding-top: 20px;
+                }
+                >h3 {
+                    color: white
+                }
+            }
+            &:nth-of-type(2) {
+                display: flex;
+                >h3 {
+                    color: white;
+                    padding-top: 60px;
+
+                }
+                >ul {
+                    padding-bottom: 40px;
+
+                    li {
+                        line-height: 40px;
+                        color: white;
+                    }
+                }
+            }
+            &:nth-of-type(3) {
+                display: flex;
+            }
+            .fa {
+                font-size: 80px;
+                color: rgb(255, 255, 255);
+                display: flex;
+                padding-top: 100px;
+                padding-left: 30px;
+                &:hover {
+                    opacity: 0.7;
+                }
+            }
+        }
+    }
+}

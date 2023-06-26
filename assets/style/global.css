@@ -1,0 +1,29 @@
+
+*{
+    margin: 0; padding: 0; box-sizing:border-box;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+a:visited{
+    color: inherit;
+}
+li{
+    list-style-type:none;
+}
+row{
+    display: flex;
+    flex-wrap: wrap;
+}
+main{
+    width: 100%;
+    height: auto;
+    text-transform: capitalize;
+}
+a,h1,h2,h3,h4,h5,li{
+    font-family: 'Yeseva One', cursive;
+}
+p,div{
+    font-family: 'Belanosima', sans-serif;
+}
